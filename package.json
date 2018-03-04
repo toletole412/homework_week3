@@ -1,0 +1,21 @@
+{
+  "name": "event",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yoonji",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon --inspect .",
+    "sequelize": "node_modules/.bin/sequelize"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "pg": "^6.4.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.35.1",
+    "sequelize-cli": "^4.0.0"
+  }
+}
